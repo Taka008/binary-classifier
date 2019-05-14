@@ -3,7 +3,6 @@ import numpy as np
 
 from sklearn.metrics import f1_score
 from sklearn.metrics import accuracy_score
-from pathlib import Path
 
 
 def load_dataset(path: str) -> Tuple[np.ndarray, np.ndarray]:
