@@ -34,7 +34,3 @@ def print_scores(y_test, y_test_pred) -> None:
     accuracy = accuracy_score(y_test, y_test_pred)
     print('F-score : %f' % f_score)
     print('Accuracy: %f' % accuracy)
-
-
-def get_model_path() -> str:
-    return Path(__file__).resolve().parents[2]
